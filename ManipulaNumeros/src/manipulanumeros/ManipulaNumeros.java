@@ -19,6 +19,7 @@ public class ManipulaNumeros {
             System.out.println("4 - Troca valores entre variáveis");
             System.out.println("5 - Compara números");
             System.out.println("6 - Calcular média de aluno");
+            System.out.println("7 - Calcular custo de carro");
             
             System.out.println("0 - Sair");
             System.out.println("Selecione a opção pretendida");
@@ -46,6 +47,9 @@ public class ManipulaNumeros {
                     break;
                 case 6:
                     MediaAluno.registaNotas();
+                    break;
+                case 7:
+                    Carro.calculaValorFinal();
                     break;
                 default: System.out.println("Insira opção válida");
             }
